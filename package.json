@@ -1,0 +1,38 @@
+{
+    "name": "Vue2",
+    "publisher": "ducksoupdev",
+    "displayName": "Vue TypeScript Snippets",
+    "description": "Vue with TypeScript snippets.",
+    "icon": "images/vue.png",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ducksoupdev/vscode-vue-typescript-snippets.git"
+    },
+    "keywords" : [
+	"Vue",
+    "Vue 2",
+    "vue",
+	"Vuejs",
+	"HTML"
+    ],
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}

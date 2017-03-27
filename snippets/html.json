@@ -1,0 +1,58 @@
+{
+  "vClass": {
+    "prefix": "v-class",
+    "body": [
+      "v-bind:class=\"{${cssClass}: ${expression}}\""
+    ],
+    "description": "Vue class snippet"
+  },
+  "vFor": {
+    "prefix": "v-for",
+    "body": [
+      "v-for=\"${item} in ${list}\""
+    ],
+    "description": "Vue for snippet"
+  },
+  "vHref": {
+    "prefix": "v-href",
+    "body": [
+      "v-bind:href=\"${expression}\""
+    ],
+    "description": "Vue href snippet"
+  },
+  "vShow": {
+    "prefix": "v-show",
+    "body": [
+      "v-show=\"${expression}\""
+    ],
+    "description": "Vue show snippet"
+  },
+  "vModel": {
+    "prefix": "v-model",
+    "body": [
+      "v-model=\"${expression}\""
+    ],
+    "description": "Vue model snippet"
+  },
+  "vSubmit": {
+    "prefix": "v-submit",
+    "body": [
+      "@submit.prevent=\"${expression}\""
+    ],
+    "description": "Vue submit snippet"
+  },
+  "vRouterView": {
+    "prefix": "v-routerView",
+    "body": [
+      "<router-view>Loading...</router-view>"
+    ],
+    "description": "Vue router view snippet"
+  },
+  "vRouterLink": {
+    "prefix": "v-routerLink",
+    "body": [
+      "<router-link v-bind:to=\"${linkPath}\">${linkName}</router-link>"
+    ],
+    "description": "Vue router link snippet"
+  }
+}
