@@ -15,6 +15,7 @@ v-component-http  // Vue component containing http get with Axios
 v-component-test  // Vue sample component test with Mocha
 v-test-helper     // Vue component test helper
 v-routing         // Vue routing
+v-service         // Service class
 ```
 
 ### HTML Snippets
@@ -25,6 +26,7 @@ v-href
 v-show
 v-model
 v-submit
+v-click
 v-routerView
 v-routerLink
 ```

@@ -141,5 +141,27 @@
       "\trouter: router",
       "})"
     ]
+  },
+  "Vue Service Class": {
+    "prefix": "v-service",
+    "description": "Service class snippet",
+    "body": [
+      "class ${Feature}Service {",
+      "",
+      "\tprivate static _instance: ${Feature}Service;",
+      "",
+      "\tprivate constructor() {",
+      "\t}",
+      "",
+      "\tstatic createInstance() {",
+      "\t\t${Feature}Service.getInstance();",
+      "\t}",
+      "",
+      "\tstatic getInstance() {",
+      "\t\treturn this._instance || (this._instance = new this());",
+      "\t}",
+      "$0",
+      "}"
+    ]
   }
 }

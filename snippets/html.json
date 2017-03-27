@@ -41,6 +41,13 @@
     ],
     "description": "Vue submit snippet"
   },
+  "vClick": {
+    "prefix": "v-click",
+    "body": [
+      "@click.prevent=\"${expression}\""
+    ],
+    "description": "Vue click snippet"
+  },
   "vRouterView": {
     "prefix": "v-routerView",
     "body": [
