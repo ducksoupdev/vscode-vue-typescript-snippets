@@ -21,7 +21,7 @@
       "export class ${Feature}Component extends Vue {",
       "\tconstructor() {",
       "\t\tsuper();",
-      "}",
+      "\t}",
       "",
       "\tmounted() { }$0",
       "}"

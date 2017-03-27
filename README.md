@@ -17,7 +17,7 @@ v-test-helper     // Vue component test helper
 v-routing         // Vue routing
 ```
 
-###HTML Snippets
+### HTML Snippets
 ```html
 v-class
 v-for
