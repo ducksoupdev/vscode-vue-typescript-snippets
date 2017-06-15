@@ -2,49 +2,49 @@
   "vClass": {
     "prefix": "v-class",
     "body": [
-      "v-bind:class=\"{${cssClass}: ${expression}}\""
+      "v-bind:class=\"{${1:cssClass}: ${2:expression}}\""
     ],
     "description": "Vue class snippet"
   },
   "vFor": {
     "prefix": "v-for",
     "body": [
-      "v-for=\"${item} in ${list}\""
+      "v-for=\"${1:item} in ${2:list}\""
     ],
     "description": "Vue for snippet"
   },
   "vHref": {
     "prefix": "v-href",
     "body": [
-      "v-bind:href=\"${expression}\""
+      "v-bind:href=\"${1:expression}\""
     ],
     "description": "Vue href snippet"
   },
   "vShow": {
     "prefix": "v-show",
     "body": [
-      "v-show=\"${expression}\""
+      "v-show=\"${1:expression}\""
     ],
     "description": "Vue show snippet"
   },
   "vModel": {
     "prefix": "v-model",
     "body": [
-      "v-model=\"${expression}\""
+      "v-model=\"${1:expression}\""
     ],
     "description": "Vue model snippet"
   },
   "vSubmit": {
     "prefix": "v-submit",
     "body": [
-      "@submit.prevent=\"${expression}\""
+      "@submit.prevent=\"${1:expression}\""
     ],
     "description": "Vue submit snippet"
   },
   "vClick": {
     "prefix": "v-click",
     "body": [
-      "@click.prevent=\"${expression}\""
+      "@click.prevent=\"${1:expression}\""
     ],
     "description": "Vue click snippet"
   },
@@ -58,8 +58,22 @@
   "vRouterLink": {
     "prefix": "v-routerLink",
     "body": [
-      "<router-link v-bind:to=\"${linkPath}\">${linkName}</router-link>"
+      "<router-link v-bind:to=\"${1:linkPath}\">${2:linkName}</router-link>"
     ],
     "description": "Vue router link snippet"
+  },
+  "vIf": {
+    "prefix": "v-if",
+    "body": [
+      "v-if=\"${1:expression}\""
+    ],
+    "description": "Vue if snippet"
+  },
+  "vElseIf": {
+    "prefix": "v-else-if",
+    "body": [
+      "v-else-if=\"${1:expression}\" $0"
+    ],
+    "description": "Vue else if snippet"
   }
 }
